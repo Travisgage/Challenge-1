@@ -1,1 +1,2 @@
 # Challenge-1
+This README is intended to accompany the repo for Challenge 1. This challenge was a refactoring of source code for a webpage to meet accessibility standards - i.e. adding alt descriptions for all images and icons, editing the html to be more easily read and better represent the flow of the deployed application,  clearly label semantic html elements that were previously <div>s, and rearranged the css file to better represent the order in which elements are displayed on the page. 
