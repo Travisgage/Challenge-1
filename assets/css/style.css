@@ -16,6 +16,8 @@ body {
     color: #ffffff;
 }
 
+/* the following css adds style to the main "Horiseon" header at the top of the page */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +26,8 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* <div> elements have been renamed throughout to more accurately represent the structur of the page, beginning with the navigation tabs at the top right of the page, which the following styles */
 
 .header nav {
     padding-top: 15px;
@@ -42,15 +46,21 @@ body {
     margin-left: 25px;
 }
 
+/* the following styling affects the link elements on the page, labeled in the html using the <a> anchor element */
+
 a {
     color: #ffffff;
     text-decoration: underline;
 }
 
+/* the following styles all of the body/descriptive text on the page, labeled with the <p> paragraph element */
+
 p {
     font-size: 16px;
     text-align: justify;
 }
+
+/* styling for the main image below the headline of the deployed page */
 
 .hero {
     height: 100%;
@@ -60,12 +70,15 @@ p {
     background-position: center;
 }
 
+/* the .content class determines styling for the main content of the page, which includes three main boxes related to Horiseon's main services. This block takes up 75% width of the total page. */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* the following styles the "search engine optimization" content on the page, starting with the header, the structure of the descriptive text, and finally the accompanying image */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -86,6 +99,8 @@ p {
     max-height: 200px;
 }
 
+/* the following styles the "online reputation" content on the page, starting with the header and then applying to the structure of the descriptive text, and finally the accompanying image */
+
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -104,6 +119,8 @@ p {
 .online-reputation-management img {
     max-height: 200px;
 }
+
+/* the following styles the "social media marketing" content on the page, starting with the header and then applying to the structure of the descriptive text, and finally the accompanying image */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
@@ -124,6 +141,8 @@ p {
     max-height: 200px;
 }
 
+/* the .float-left and .float-right classes style the placement of the images in the main content section of the page, placing them to the left or to the right of the accompanying descriptive text */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -133,6 +152,8 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* the following .benefits and .benefit-[...] classes style the content placed on the right 25% of the main section of the page, which is enclosed within the <aside> elements in the html. This section sets the styling for the headers, brief descriptive text, and accompanying icons for each of the three sections. */
 
 .benefits {
     margin-right: 20px;
@@ -192,6 +213,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* the following final section adds styling to the copyright footer at the bottom of the page. */
 
 .footer {
     padding: 30px;
