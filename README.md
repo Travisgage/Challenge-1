@@ -8,4 +8,4 @@ This README is intended to accompany the repo for Challenge 1. This challenge wa
 
 Here is a link to the deployed application:
 
-https://travisgage.github.io/Challenge-1/
+travisgage.github.io/FSF-Challenge-1-Code-Refactor/
